@@ -3,7 +3,7 @@ package io.github.jsutcodes.pokestone.controller;
 import io.github.jsutcodes.pokestone.model.Card;
 import io.github.jsutcodes.pokestone.model.CardId;
 import io.github.jsutcodes.pokestone.constants.CardType;
-import io.github.jsutcodes.pokestone.validator.CardValidator;
+import io.github.jsutcodes.pokestone.validator.CardCreationValidator;
 import io.github.jsutcodes.pokestone.constants.APIConstants;
 import io.github.jsutcodes.pokestone.dto.CardDTO;
 import io.github.jsutcodes.pokestone.service.CardService;
@@ -52,7 +52,7 @@ public class CardAPIController {
     public ResponseEntity<CardDTO> createCard(@RequestBody CardDTO cardDTO) {
         HttpStatus statusResponse = HttpStatus.BAD_REQUEST;
 
-        if (CardValidator.isValid(cardDTO)) {
+        if (CardCreationValidator.isValid(cardDTO)) {
             statusResponse = HttpStatus.ACCEPTED;
         }
         return new ResponseEntity<>(statusResponse);

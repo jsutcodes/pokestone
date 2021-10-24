@@ -4,7 +4,7 @@ import io.github.jsutcodes.pokestone.dto.CardDTO;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
-public class CardValidator {
+public class CardCreationValidator {
     public static boolean isValid(CardDTO cardDTO) {
 
         final String cardId = cardDTO.getId().toString();
