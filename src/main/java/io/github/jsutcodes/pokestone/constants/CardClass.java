@@ -3,7 +3,7 @@ package io.github.jsutcodes.pokestone.constants;
 import com.fasterxml.jackson.annotation.JsonCreator;
 
 public enum CardClass {
-    CREATURE(0), SPELL(1), ITEM(3);
+    STARTER(0), CREATURE(1), ITEM(2);
 
     private int id;
 

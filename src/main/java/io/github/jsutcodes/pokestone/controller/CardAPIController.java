@@ -1,5 +1,6 @@
 package io.github.jsutcodes.pokestone.controller;
 
+import io.github.jsutcodes.pokestone.constants.CardClass;
 import io.github.jsutcodes.pokestone.model.Card;
 import io.github.jsutcodes.pokestone.model.CardId;
 import io.github.jsutcodes.pokestone.constants.CardType;
@@ -41,6 +42,11 @@ public class CardAPIController {
     @GetMapping("/v1.0/name/{name}")
     public List<Card> getCardByName(@PathVariable("name") String name) {
         return cards.getCardByName(name);
+    }
+
+    @GetMapping("/v1.0/class/{cardClass}")
+    public List<Card> getCardByName(@PathVariable("cardClass") CardClass cardClass) {
+        return cards.getCardByCardClass(cardClass);
     }
 
     @GetMapping("search/v1.0")

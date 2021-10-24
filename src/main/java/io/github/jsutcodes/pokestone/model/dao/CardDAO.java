@@ -1,5 +1,6 @@
 package io.github.jsutcodes.pokestone.model.dao;
 
+import io.github.jsutcodes.pokestone.constants.CardClass;
 import io.github.jsutcodes.pokestone.constants.CardType;
 import io.github.jsutcodes.pokestone.model.Card;
 import io.github.jsutcodes.pokestone.model.CardId;
@@ -19,4 +20,6 @@ public interface CardDAO {
     List<Card> getAll();
 
     void saveCard(Card card);
+
+    List<Card> getCardByCardClass(CardClass cardClass);
 }

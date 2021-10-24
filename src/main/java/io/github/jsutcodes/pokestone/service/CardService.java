@@ -1,5 +1,6 @@
 package io.github.jsutcodes.pokestone.service;
 
+import io.github.jsutcodes.pokestone.constants.CardClass;
 import io.github.jsutcodes.pokestone.model.Card;
 import io.github.jsutcodes.pokestone.model.CardId;
 import io.github.jsutcodes.pokestone.constants.CardType;
@@ -17,4 +18,6 @@ public interface CardService {
     public List<Card> getCardByString(String searchString);
 
     public List<Card> getAll();
+
+    List<Card> getCardByCardClass(CardClass cardClass);
 }

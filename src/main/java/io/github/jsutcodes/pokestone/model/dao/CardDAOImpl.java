@@ -1,17 +1,15 @@
 package io.github.jsutcodes.pokestone.model.dao;
 
+import io.github.jsutcodes.pokestone.constants.CardClass;
 import io.github.jsutcodes.pokestone.constants.CardType;
 import io.github.jsutcodes.pokestone.model.Card;
 import io.github.jsutcodes.pokestone.model.CardEntity;
 import io.github.jsutcodes.pokestone.model.CardId;
 import io.github.jsutcodes.pokestone.repository.CardRepository;
-import jdk.nashorn.internal.parser.TokenType;
-import lombok.extern.apachecommons.CommonsLog;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import java.lang.reflect.Type;
 import java.util.List;
 
 @Slf4j
@@ -45,18 +43,19 @@ public class CardDAOImpl implements CardDAO {
 
    @Override
    public  List<Card> getAll() {
-        List<CardEntity> cardEntityList =  cardRepository.getAll();
-       // Type listType = new TokenType<List<Card>>() {}.getType();
-        return null;// cardToEntityMapper.map(cardEntityList, listType);
-
+        return  cardRepository.getAll();
     }
 
     @Override
     public void saveCard(Card card) {
-      //  CardEntity cardEntity = cardToDTOMapper.map(card, CardEntity.class);
-      //  cardRepository.saveCard(card);
-      //  log.info("Saved Card {} into the database. ",cardEntity.getId() );
+       cardRepository.saveCard(card);
+       log.info("Saved Card {} into the database. ",card.getId() );
 
+    }
+
+    @Override
+    public List<Card> getCardByCardClass(CardClass cardClass) {
+       return  cardRepository.getCardByCardClass(cardClass);
     }
 
 }
