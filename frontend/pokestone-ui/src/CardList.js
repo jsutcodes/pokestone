@@ -30,7 +30,7 @@ class CardList extends React.Component {
 
   renderCards = () => {
   	const cards = Object.values(this.state.cards);
-  	return cards.map(card => <Card id={card.name} name={card.name} cost={card.cost}  text={card.text} health={card.health} attack={card.attack} />);
+  	return cards.map(card => <Card id={card.id} cardClass={card.cardClass} name={card.name} cost={card.cost}  text={card.text} health={card.health} attack={card.attack} image={card.image} />);
   }
 
   render() {
