@@ -18,6 +18,7 @@ import java.util.List;
 
 @Slf4j
 @RestController
+@CrossOrigin(origins = "http://localhost:3000")
 @RequestMapping(APIConstants.CARDS_REQUESTS)
 public class CardAPIController {
 

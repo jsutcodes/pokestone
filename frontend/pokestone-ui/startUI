@@ -1,0 +1,3 @@
+#! /bin/bash
+
+npm --openssl-legacy-provider start
