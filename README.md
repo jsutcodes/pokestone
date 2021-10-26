@@ -71,7 +71,8 @@ Types of cards:
 1. Spells
 2. Pokemon (cost, type, effect, Power, Hit points)
 3. Items (Escape rope, smokebomb, berries etc)
-4. cards will be uniquely identifiable by card type, card id, card version (for example POKEMON-001-0)
+4. Status (Burn, poisoned, cursed, paralysis?)
+5. cards will be uniquely identifiable by card type, card id, card version (for example POKEMON-001-0)
 Deck Rules: 
 - 2 card limit of any pokemon type
 - 30 card deck 
