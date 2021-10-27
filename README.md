@@ -90,6 +90,11 @@ Deck Rules:
 
 * gain pokeslots by defeating gym leaders
 * type advantages give +10/-10 for advantage vs disadvantage (i.e. grass takes 2x10 from fire. so if ember does 30 damage, pokemon takes 30 + 2x10 = 50 dmg ). 
+* subcategores: 
+    *  secret - cast but player doesnt know effect. (counter, protect, ) 
+    *  attack (special & physical) - does damage to character (can only play 1 attack per turn)
+    *  (effect/status) - does something that is not an attack (spite -  opponent shows you next 5 cards. Pick a TM Name and discard any by that name. opponent, then shuffles. )
+
 
 
 | Pokemon Types | General card rules| Effects:| 
@@ -108,6 +113,13 @@ Deck Rules:
 |Psychic| ||
 |Rock| big defense or low with sturdy | sturdy (survive a fatal hit by 1)|
 |Water| ||
+
+### Card Example (Pokemon)
+| Pokemon | HP | ATTACK (normal moves) | DEFENSE (Normal moves) | SP. ATTACK (matching type) | SP. DEF (weakness defense) |  ? Evasion | ?Accuracy | 
+| -- | -- | -- | -- | -- | -- | -- | --|  
+| charmander | 60 | 0 | 0 | 10 | 10 | n/A | n/A
+| machop | 60 | 10 | 10 | 0 | 0 | n/a | n/A
+
 
 Future Additions of cards:
 
