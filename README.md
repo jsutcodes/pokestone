@@ -68,11 +68,12 @@ Youngster
 
 ## How do the (pokemon) cards work? 
 Types of cards:
-1. Spells
-2. Pokemon (cost, type, effect, Power, Hit points)
+1. Spells (TM, HM, moves -- TMs will have a list of types that can cast it Legendary can only be cast by that one type i.e. -- eatrthquake a ground only attack?)
+2. Pokemon (cost, type, effect, Power, Hit points) can have duel types
 3. Items (Escape rope, smokebomb, berries etc)
-4. Status (Burn, poisoned, cursed, paralysis?)
-5. cards will be uniquely identifiable by card type, card id, card version (for example POKEMON-001-0)
+  - (berries are like secrets, 1 time use opponent doesnt know about them.)
+5. Status (Burn, poisoned, cursed, paralysis?)
+6. cards will be uniquely identifiable by card type, card id, card version (for example POKEMON-001-0)
 Deck Rules: 
 - 2 card limit of any pokemon type
 - 30 card deck 
