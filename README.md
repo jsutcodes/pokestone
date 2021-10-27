@@ -120,7 +120,20 @@ Deck Rules:
 | charmander | 60 | 0 | 0 | 10 | 10 | n/A | n/A
 | machop | 60 | 10 | 10 | 0 | 0 | n/a | n/A
 
+### Damage Formula
+```
+Here's the formula:
 
+((2A/5+2)*B*C)/D)/50)+2)*X)*Y/10)*Z)/255
+
+A = attacker's Level = Pokemons cost 
+B = attacker's Attack or Special
+C = attack Power = dmg on card. 
+D = defender's Defense or Special
+X = same-Type attack bonus (1 or 1.5)
+Y = Type modifiers (40, 20, 10, 5, 2.5, or 0)
+Z = a random number between 217 and 255
+```
 Future Additions of cards:
 
 | Pokemon Types | Trainers Specific| | 
