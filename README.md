@@ -77,7 +77,20 @@ Types of cards:
 Deck Rules: 
 - 2 card limit of any pokemon type
 - 30 card deck 
-- legendary can only be in the deck 1 time (Limit this to only 5 per deck?)
+- legendary can only be in the deck 1 time and match your starter's primary type (Limit this to only 5 per deck?)
+
+## Deck 
+|Card type |Limit | Description |
+|--|--|--|
+|Pokemon- Starter | 1 | This is your starter pokemon, Evolves through the game.Use its Power to help you win the battle. |
+|Pokemon - creature| 5 POKESLOTS MAX (9 points) | This is your team, use their abilites (can use evolutions but takes up a poke slot. all starters a 1 cost, evolution 2 is 2 cost, evolution 3 is 3 cost), pokemon that don't evolve or evolve 1 time start at 2 points, literal legendaries cost 4| 
+|TM/HM| 4 moves per pokemon * 5 SLOTS = 20 recomended | 5 max per spell, legendary TMs 2 max can only cast them if current pokemon or starter can use it |
+|ITEM/BERRIES/ SUPPORT(KEY ITEMS Legendaries) | 14 recomended | some items get played as secrets, some as but they all get destroyed after use/effect. |
+|TOTAL | 40 minumum | when deck is empty shuffle discard in the TMs back into the deck |
+
+* gain pokeslots by defeating gym leaders
+* type advantages give +10/-10 for advantage vs disadvantage (i.e. grass takes 2x10 from fire. so if ember does 30 damage, pokemon takes 30 + 2x10 = 50 dmg ). 
+
 
 | Pokemon Types | General card rules| Effects:| 
 |--|--|--|
